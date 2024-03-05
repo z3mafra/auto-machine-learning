@@ -1,4 +1,6 @@
-# auto-machine-learning
+# Relatório Entrega do Projeto 
+Repositório: *auto-machine-learning*
+
 O principal objetivo do desafio foi Trabalhar com Machine Learning na Prática no Azure ML, para isso temos três objetivos secundários:
 
 >    I. Acesso e uso do recurso de machine learning automatizado no Azure Machine Learning;   
@@ -7,7 +9,7 @@ O principal objetivo do desafio foi Trabalhar com Machine Learning na Prática n
 
 Para completar o desafio, foram incluídas tarefas no GItHub, para compartilhamento do projeto. 
 
-Com isso segui as 4 principais Etapas:
+Com isso segui as [4] principais Etapas:
 
 [1] Criar um novo repositório no github com um nome a sua preferência;  
 [2] Criar um modelo de previsão com seus devidos pontos de extremidade configurados:  
@@ -22,16 +24,16 @@ Com isso segui as 4 principais Etapas:
 
 
 -------------------
-**[1] Criar um novo repositório no github com um nome a sua preferência;**  
+## **[1] Criar um novo repositório no github com um nome a sua preferência;**  
 Para criar o repositório:
 >  - Acessei o site do GitHub, logado em meu perfil.  
->  - cliquei em Novo repositório. Abre um menu.  
->  - cliquei opção "Novo repositório".  
+>  - Cliquei em Novo repositório. Abre um menu.  
+>  - Cliquei opção "Novo repositório".  
 >  - Digitei um nome para o repositório: "auto-machine-learning".  
 >  - Adicionei uma descrição do repositório: "Uso recurso de machine learning automatizado no Azure Machine Learning para treinar e avaliar um modelo de machine learning. Implantar e testar o modelo treinado.".  
 >  - Escolhi a visibilidade "pública" do repositório.  
 >  - Selecionei Inicializar este repositório com um arquivo LEIAME.  
->  - Clique em Criar repositório.  
+>  - Cliquei em "Criar repositório".  
 
-**[2] Criar um modelo de previsão com seus devidos pontos de extremidade configurados:**  
+## **[2] Criar um modelo de previsão com seus devidos pontos de extremidade configurados:**  
   
