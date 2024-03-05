@@ -7,7 +7,7 @@ O principal objetivo do desafio foi Trabalhar com Machine Learning na Prática n
 
 Para completar o desafio, foram incluídas tarefas no GItHub, para compartilhamento do projeto. 
 
-Com isso segui as Etapas:
+Com isso segui as 4 principais Etapas:
 
 [1] Criar um novo repositório no github com um nome a sua preferência;  
 [2] Criar um modelo de previsão com seus devidos pontos de extremidade configurados:  
