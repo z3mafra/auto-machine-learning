@@ -36,4 +36,21 @@ Para criar o repositório:
 >  - Cliquei em "Criar repositório".  
 
 ## **[2] Criar um modelo de previsão com seus devidos pontos de extremidade configurados:**  
+Neste desafio, deve-se fazer uso do recurso de machine learning automatizado no Azure Machine Learning para treinar e avaliar um modelo de machine learning. Em seguida, implantar e testar o modelo treinado. E, finalmente, limpar a área de trabalho.
+
+###  a. Criar um espaço de trabalho do Azure Machine Learning;  
+
+###  b. Usar  Machine Learning para treinar um modelo;  
+
+###  c. Avaliar o melhor modelo;  
+
+###  d. Implantar e testar o modelo;  
+
+###  e. Testar o serviço implantado;  
+
+###  f. Limpar o espsço de trabalho.  
+
+
+
+
   
