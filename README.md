@@ -86,7 +86,7 @@ O novo trabalho abre uma nova página para as configurações necessárias, com 
  
  **Método de treinamento: Treinar automaticamente**
 >
-        Configurações básicas:  
+     **Configurações básicas:**  
 > - Job name: mslearn-bike-automl
 > - New experiment name: mslearn-bike-rental
 > - Description: Aprendizado de máquina automatizado para previsão de aluguel de bicicletas
