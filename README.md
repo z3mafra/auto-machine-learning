@@ -184,23 +184,24 @@ Ao verificar os gráficos que mostram a performance do modelo. O Gráfico "resid
 
 ### d. Implantar e testar o modelo  
 
-    1. On the Model tab for the best model trained by your automated machine learning job, select Deploy and use the Web service option to deploy the model with the following settings:  
-        ◦ Name: prevealuguel  
-        ◦ Description: Predict cycle rentals  
-        ◦ Compute type: Azure Container Instance  
-        ◦ Enable authentication: Selected  
+1. On the Model tab for the best model trained by your automated machine learning job, select Deploy and use the Web service option to deploy the model with the following settings:  
+ > - Name: prevealuguel  
+ > - Description: Predict cycle rentals  
+ > - Compute type: Azure Container Instance  
+ > - Enable authentication: Selected  
+ 
  » Implantar  
   
-    2.  Espera para a impantação comçar – levou um tempo. O Status da Implantação (Deploy status) para o endpoint do prevealuguel ficou indicado nas “notificações” no menu da parte superior da págiana como implantação em andamento.  
-    3. Aguardar até o “Deploy status” mudar para “Healthy”. Levou alguns minutos.  
+  2.  Espera para a impantação comçar – levou um tempo. O Status da Implantação (Deploy status) para o endpoint do prevealuguel ficou indicado nas “notificações” no menu da parte superior da págiana como implantação em andamento.  
+  3. Aguardar até o “Deploy status” mudar para “Healthy”. Levou alguns minutos.  
   
 ### e. Testar o serviço implantado  
   
 Agora você pode testar o serviço implantado.  
-    1. No Azure Machine Learning studio, no menu do lado esquerdo, selecionei Endpoints e abri o “prevealuguel real-time endpoint”.  
-    2. Na página do “ prevealuguel real-time endpoint” abrir a aba de Testar.  
-    3. No painel de Inserir dados para teste de ponto de extremidade, troquei o template JSON pelo seguinte código de input data:  
-  
+  1. No Azure Machine Learning studio, no menu do lado esquerdo, selecionei Endpoints e abri o “prevealuguel real-time endpoint”.  
+  2. Na página do “ prevealuguel real-time endpoint” abrir a aba de Testar.  
+  3. No painel de Inserir dados para teste de ponto de extremidade, troquei o template JSON pelo seguinte código de input data:  
+ ~~~ 
         {  
           "Inputs": {   
             "data": [  
@@ -222,9 +223,9 @@ Agora você pode testar o serviço implantado.
           },   
           "GlobalParameters": 1.0  
         }  
-  
-    4.  Cliquei o botão de Testar.  
-    5. Verificando os resultados do teste, que inclue o numero predito de alugueis baseado no the recursos de entrada – que retornou o seguinte:  
+ ~~~ 
+  4.  Cliquei o botão de Testar.  
+  5. Verificando os resultados do teste, que inclue o numero predito de alugueis baseado no the recursos de entrada – que retornou o seguinte:  
   
        {  
          "Results": [  
