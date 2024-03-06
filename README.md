@@ -101,20 +101,27 @@ O novo trabalho abre uma nova página para as configurações necessárias, com 
  » Avançar  
 >**Fonte de dados:  
 > - Select de arquivos da web  
+
+  
+  » Avançar  
+>**Web URL:  
+> -  Web URL: <https://aka.ms/bike-rentals>  
+> - Skip data validation: do not select  
+
+
+  
+  » Avançar  
+>**Configurações:  
+> - File format: Delimited  
+> - Delimiter: Comma  
+> - Encoding: UTF-8  
+> - Column headers: Somente o primeiro arquivo possui cabeçalho  
+> - Skip rows: None  
+> - Dataset contains multi-line data: do not select  
+
+  
  » Avançar  
-            ▪ Web URL:  
-                • Web URL: <https://aka.ms/bike-rentals>  
-                • Skip data validation: do not select  
- » Avançar  
-            ▪ Configurações:  
-                • File format: Delimited  
-                • Delimiter: Comma  
-                • Encoding: UTF-8  
-                • Column headers: Somente o primeiro arquivo possui cabeçalho  
-                • Skip rows: None  
-                • Dataset contains multi-line data: do not select  
- » Avançar  
-            ▪ Esquema:  
+>**Esquema:  
                 • Include all columns other than Path  
  » Avançar  
                 • Review the automatically detected types  
