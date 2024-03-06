@@ -34,6 +34,17 @@ Para criar o repositório:
 >  - Escolhi a visibilidade "pública" do repositório.  
 >  - Selecionei Inicializar este repositório com um arquivo LEIAME.  
 >  - Cliquei em "Criar repositório".  
+   
+Para criar o clone local do repositório:
+>  - Entrei no diretório Git local.
+>  - Cliquei com o botão direito e optei por: Open Git Bash here.
+>  - Na linha de comando digitei: git clone https://github.com/z3mafra/auto-machine-learning.git
+>  - Em seguida, para atualizar o repositório local, digitei o comando: git pull https://github.com/z3mafra/auto-machine-learning.git  
+  
+Com isso realizado, o próximo passo foi fazer as etapas do moledo de aprendizagem.
+
+
+
 
 ## **[2] Criar um modelo de previsão com seus devidos pontos de extremidade configurados:**  
 Neste desafio, deve-se fazer uso do recurso de machine learning automatizado no Azure Machine Learning para treinar e avaliar um modelo de machine learning. Em seguida, implantar e testar o modelo treinado. E, finalmente, limpar a área de trabalho.
