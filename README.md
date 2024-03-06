@@ -126,7 +126,7 @@ O novo trabalho abre uma nova página para as configurações necessárias, com 
  > - Review the automatically detected types  
  > - Selecione Criar.  
 
-           Depois que a dataset foi criada, selecione o dataset aluguel-bicicletas para submeter o ML job.  
+> Depois que a dataset foi criada, selecione o dataset aluguel-bicicletas para submeter o ML job.  
  
   
  » Avançar  
