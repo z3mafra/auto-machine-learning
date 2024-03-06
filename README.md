@@ -176,10 +176,11 @@ O novo trabalho abre uma nova página para as configurações necessárias, com 
 
 Após completar o “automated machine learning job”  pode ver o melhor modelo treinado.  
   
-    1.  Na aba Visão geral, aparece o resumo do melhor modelo.  
-    2. Selecionar o texto sob Algorithm name “VotingEnsemble” para ver os detalhes do melhor modelo.  
-    3. Selecionar a aba das Metrics (menu acima) e seleciona os graficos residuals e predicted_true if they are not already selected.  
-       Review the charts which show the performance of the model. The residuals chart shows the residuals (the differences between predicted and actual values) as a histogram. The predicted_true chart compares the predicted values against the true values.  
+1.  Na aba Visão geral, aparece o resumo do melhor modelo.  
+2. Selecionar o texto sob Algorithm name “VotingEnsemble” para ver os detalhes do melhor modelo.  
+3. Selecionar a aba das Metrics (menu acima) e seleciona os graficos residuals e predicted_true if they are not already selected.  
+
+Ao verificar os gráficos que mostram a performance do modelo. O Gráfico "residuals" mostra as diferenças entre o predito e os valores reais) como um histograma. O Gráfico "predicted_true" compara os valores preditos frente os valores reais.  
 
 ### d. Implantar e testar o modelo  
 
