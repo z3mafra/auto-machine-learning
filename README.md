@@ -91,7 +91,7 @@ O novo trabalho abre uma nova página para as configurações necessárias, com 
 > - Description: Aprendizado de máquina automatizado para previsão de aluguel de bicicletas
 > - Tags: none  
   
->**Tipo de tarefa e dados:  
+>**Tipo de tarefa e dados:**  
 > - Select task type: Regressão
 > - Select dataset: Create a new dataset with the following settings:
 > - Tipos de dados:  
@@ -100,7 +100,7 @@ O novo trabalho abre uma nova página para as configurações necessárias, com 
 > > - Type: Tabular
   
  » Avançar  
->**Fonte de dados:  
+>**Fonte de dados:**  
 > - Select de arquivos da web  
 
   » Avançar  
@@ -109,7 +109,7 @@ O novo trabalho abre uma nova página para as configurações necessárias, com 
 > - Skip data validation: do not select  
 
   » Avançar  
->**Configurações:  
+>**Configurações:**  
 > - File format: Delimited  
 > - Delimiter: Comma  
 > - Encoding: UTF-8  
