@@ -258,20 +258,20 @@ Para deletar o workspace:
 
 O processo de escrita foi:
   
-> -
+> 
 > - começou com anotações, a cada passo, seguindo a documentação e a orientação em vídeo, num editor de texto padrão;  
 > - depois trasnferido por Copy/Paste para o arquivo readme.md, no repositório local, aberto no Visual Studio Code.  
-> -   
+>    
 -------------------
 
 ## **[4] Salvar nesse repositório o arquivo readme.md e o arquivo .json de pontos de extremidade:**  
 
 O processo final foi:
 
-> -
+> 
 > - após passar todas as anotações para o arquivo readme.md;  
 > - revisão do texto;  
 > - preparação do arquivo .json;  
 > - envio com o comando git push, para o repositório remoto no GitHub.  
 > - compartilhamento do link desse repositório através do botão 'entregar projeto'
-> -
+> 
