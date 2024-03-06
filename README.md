@@ -122,12 +122,15 @@ O novo trabalho abre uma nova página para as configurações necessárias, com 
   
  » Avançar  
 >**Esquema:  
-                • Include all columns other than Path  
- » Avançar  
-                • Review the automatically detected types  
+> - Include all columns other than Path  
   
-          Selecione Criar.  
-          Depois que a dataset foi criada, selecione o dataset aluguel-bicicletas para submeter o ML job.  
+ » Avançar  
+ > - Review the automatically detected types  
+ > - Selecione Criar.  
+
+           Depois que a dataset foi criada, selecione o dataset aluguel-bicicletas para submeter o ML job.  
+ 
+  
  » Avançar  
   
        Configurações de tarefa:  
