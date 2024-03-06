@@ -226,16 +226,17 @@ Agora você pode testar o serviço implantado.
  ~~~ 
   4.  Cliquei o botão de Testar.  
   5. Verificando os resultados do teste, que inclue o numero predito de alugueis baseado no the recursos de entrada – que retornou o seguinte:  
-  
+~~~  
        {  
          "Results": [  
            388.3180761141912  
          ]  
        }  
+~~~  
+
+  O painel de teste pegou os dados de entrada e usou o modelo treinado para retornar o número previsto de aluguéis.  
   
-       O painel de teste pegou os dados de entrada e usou o modelo treinado para retornar o número previsto de aluguéis.  
-  
-       Em resumo: foi usado um conjunto de dados históricos de aluguel de bicicletas para treinar um modelo. O modelo previu o número de aluguel de bicicletas esperado em um determinado dia, com base em características sazonais e meteorológicas.  
+  **Em resumo:** foi usado um conjunto de dados históricos de aluguel de bicicletas para treinar um modelo. O modelo previu o número de aluguel de bicicletas esperado em um determinado dia, com base em características sazonais e meteorológicas.  
   
 ### f. Limpar o espsço de trabalho  
   
@@ -243,9 +244,9 @@ Todo este trabalho está hospedado numa instância de contêiner do Azure, na We
 Com o desafio finalizado, recomanda-se excluir o ponto de extremidade para evitar cobranças desnecessárias de uso do Azure.  
     1.  Na página do Azure Machine Learning studio, (<https://ml.azure.com/home?tid=dededec5-9746-4b92-971d-f4c3755090da)(https://ml.azure.com/?azure-portal=true>), entrei no “espao de trabalho” LabLearn, selecionei Endpoints, marca o endpoint prevealuguel.  Depois selecionar Excluir e confirmei que vai excluir o endpoint.  
 
-       Observação 1: Excluir o processamento (compute) garante que a assinatura não será cobrada por recursos de computação.  
-       Observação 2: Mas, será cobrado o armazenamento de dados, no espaço de trabalho do Azure Machine Learning na sua assinatura.  
-       Observação 3: No caso de término desse exercício no Azure Machine Learning, é bom  eliminar o espaço de trabalho Azure Machine Learning e os recursos associados.  
+   Observação 1: Excluir o processamento (compute) garante que a assinatura não será cobrada por recursos de computação.  
+   Observação 2: Mas, será cobrado o armazenamento de dados, no espaço de trabalho do Azure Machine Learning na sua assinatura.  
+   Observação 3: No caso de término desse exercício no Azure Machine Learning, é bom  eliminar o espaço de trabalho Azure Machine Learning e os recursos associados.  
   
 Para deletar o workspace:  
     1.  No portal Azure, (<https://portal.azure.com/?azure-portal=true>) na página de Grupos de Recursos, abrir o “resource group” (Lab-AI-900), que foi especificado quando foi criado o workspace no Azure Machine Learning.  
@@ -257,17 +258,20 @@ Para deletar o workspace:
 
 O processo de escrita foi:
   
-- começou com anotações, a cada passo, seguindo a documentação e a orientação em vídeo, num editor de texto padrão;  
-- depois trasnferido por Copy/Paste para o arquivo readme.md, no repositório local, aberto no Visual Studio Code.  
-  
+> -
+> - começou com anotações, a cada passo, seguindo a documentação e a orientação em vídeo, num editor de texto padrão;  
+> - depois trasnferido por Copy/Paste para o arquivo readme.md, no repositório local, aberto no Visual Studio Code.  
+> -   
 -------------------
 
 ## **[4] Salvar nesse repositório o arquivo readme.md e o arquivo .json de pontos de extremidade:**  
 
 O processo final foi:
 
-- após passar todas as anotações para o arquivo readme.md;  
-- revisão do texto;  
-- preparação do arquivo .json;  
-- envio com o comando git push, para o repositório remoto no GitHub.  
-- compartilhamento do link desse repositório através do botão 'entregar projeto'
+> -
+> - após passar todas as anotações para o arquivo readme.md;  
+> - revisão do texto;  
+> - preparação do arquivo .json;  
+> - envio com o comando git push, para o repositório remoto no GitHub.  
+> - compartilhamento do link desse repositório através do botão 'entregar projeto'
+> -
