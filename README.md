@@ -104,7 +104,7 @@ O novo trabalho abre uma nova página para as configurações necessárias, com 
 > - Select de arquivos da web  
 
   » Avançar  
->**Web URL:  
+>**Web URL**  
 > -  Web URL: <https://aka.ms/bike-rentals>  
 > - Skip data validation: do not select  
 
