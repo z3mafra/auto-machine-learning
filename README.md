@@ -131,18 +131,18 @@ O novo trabalho abre uma nova página para as configurações necessárias, com 
   
  » Avançar  
   
->**Configurações de tarefa:  
+>**Configurações de tarefa:**  
  > - Task type: Regression  
  > - Dataset: aluguel-bicicletas  
  > - Target column: Rentals (integer)  
   
->** Selecionar “Additional configuration settings”:  
+>** Selecionar “Additional configuration settings”:**  
  > - Primary metric: Normalized root mean squared error  
  > - Explain best model: Unselected  
  > - Use all supported models: Unselected.  
  > - Allowed models: Select only RandomForest and LightGBM — normally you’d want to try as many as possible, but each model added increases the time it takes to run the job.  
   
->**Limits: Expand this section  
+>**Limits: Expand this section**  
  > - Max trials: 3  
  > - Max concurrent trials: 3  
  > - Max nodes: 3  
@@ -151,7 +151,7 @@ O novo trabalho abre uma nova página para as configurações necessárias, com 
  > - Iteration timeout: 15  
  > - Enable early termination: Selected  
   
->** Validation and test:  
+>** Validation and test:**  
  > - Validation type: Divisão de validação de treinamento  
  > - Percentage of validation data: 10  
  > - Test dataset: None  
@@ -159,7 +159,7 @@ O novo trabalho abre uma nova página para as configurações necessárias, com 
   
  » Avançar  
   
->** Cálculo:  
+>**Cálculo:**  
         ◦ Select compute type: Serverless  
         ◦ Virtual machine type: CPU  
         ◦ Virtual machine tier: Dedicated  
@@ -167,10 +167,10 @@ O novo trabalho abre uma nova página para as configurações necessárias, com 
         ◦ Number of instances: 1  
  » Avançar  
   
->** Enviar trabalho de treinamento  
+>**Enviar trabalho de treinamento**  
        Aqui foi Submetido o trabalho de treinamento, automaticamente.  
   
-       **OBSERVAÇÃO:** Tempo de espera longo para o trabalho terminar. Pausa para um café!  
+**OBSERVAÇÃO:** Tempo de espera longo para o trabalho terminar. Pausa para um café!  
   
 ### c. Avaliar o melhor modelo  
 
