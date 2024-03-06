@@ -90,7 +90,8 @@ O novo trabalho abre uma nova página para as configurações necessárias, com 
 > - New experiment name: mslearn-bike-rental
 > - Description: Aprendizado de máquina automatizado para previsão de aluguel de bicicletas
 > - Tags: none  
-       Tipo de tarefa e dados:  
+  
+>**Tipo de tarefa e dados:  
 > - Select task type: Regressão
 > - Select dataset: Create a new dataset with the following settings:
 > - Tipos de dados:  
@@ -102,7 +103,6 @@ O novo trabalho abre uma nova página para as configurações necessárias, com 
 >**Fonte de dados:  
 > - Select de arquivos da web  
 
-  
   » Avançar  
 >**Web URL:  
 > -  Web URL: <https://aka.ms/bike-rentals>  
@@ -119,7 +119,7 @@ O novo trabalho abre uma nova página para as configurações necessárias, com 
 
   
  » Avançar  
->**Esquema:  
+>**Esquema:**  
 > - Include all columns other than Path  
   
  » Avançar  
