@@ -62,14 +62,14 @@ Para utilizar o Azure Machine Learning, é necessário aprovisionar um espaço d
 Aqui é necessário haver um cadastramento no portal Azure: fui na opção: “Começar com uma avaliação gratuita do Azure”; vai para a página “Crie na nuvem com uma conta gratuita do Azure”, optei por “Experimentar gratuitamente”. Foi iniciado o processo de cadastro da conta, incluindo um cartão de crédito.
 
 2. Selecione + Criar um recurso, pesquise Machine Learning e crie um novo recurso Azure Machine Learning com as seguintes configurações:
-        ◦ Assinatura: a assinatura do Azure dsiponível.
-        ◦ Grupo de recursos: criei o grupo de recursos “Lab-AI-900-AML”.
-        ◦ Nome: inserir o nome do espaço de trabalho “LabLearn”.
-        ◦ Região: opção sugerida “East US 2”
-        ◦ Conta de armazenamento: utilizaei a conta padrão criada para esse espaço de trabalho.
-        ◦ Cofre de chaves: utilizaei o cofre de chaves padrão criado para esse espaço de trabalho.
-        ◦ Insights de aplicativos: utilizaei o recurso padrão de insights de aplicativos criado esse espaço de trabalho.
-        ◦ Registro de contêiner: Optar po “Nenhum”.
+> - Assinatura: a assinatura do Azure dsiponível.
+> - Grupo de recursos: criei o grupo de recursos “Lab-AI-900-AML”.
+> - Nome: inserir o nome do espaço de trabalho “LabLearn”.
+> - Região: opção sugerida “East US 2”
+> - Conta de armazenamento: utilizaei a conta padrão criada para esse espaço de trabalho.
+> - Cofre de chaves: utilizaei o cofre de chaves padrão criado para esse espaço de trabalho.
+> - Insights de aplicativos: utilizaei o recurso padrão de insights de aplicativos criado esse espaço de trabalho.
+> - Registro de contêiner: Optar po “Nenhum”.
 3. Selecionei Revisar + criar e selecione Criar. Aguardei a criação do seu espaço de trabalho, para ir para o recurso implantado.
 4. Selecionei Iniciar estúdio; abriu uma nova guia do navegador para <https://ml.azure.com>.
 5. No estúdio Azure Machine Learning, pode ser visto o espaço de trabalho recém-criado, em “Todos os espaços de trabalho”, no menu lateral. Entrei no espaço de trabalho criado: “LabLearn”.  
