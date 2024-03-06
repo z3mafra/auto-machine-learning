@@ -84,17 +84,18 @@ Observação: se usará um conjunto de dados de detalhes históricos de aluguel 
 O novo trabalho abre uma nova página para as configurações necessárias, com os seguintes itens:  
  Método de treinamento: Treinar automaticamente  
        Configurações básicas:  
-        ◦ Job name: mslearn-bike-automl  
-        ◦ New experiment name: mslearn-bike-rental  
-        ◦ Description: Aprendizado de máquina automatizado para previsão de aluguel de bicicletas  
-        ◦ Tags: none  
+> - Job name: mslearn-bike-automl
+> - New experiment name: mslearn-bike-rental
+> - Description: Aprendizado de máquina automatizado para previsão de aluguel de bicicletas
+> - Tags: none  
        Tipo de tarefa e dados:  
-        ◦ Select task type: Regressão  
-        ◦ Select dataset: Create a new dataset with the following settings:  
-            ▪ Tipos de dados:  
-                • Name: aluguel-bicicletas  
-                • Description: Dados históricos de aluguel de bicicletas  
-                • Type: Tabular  
+> - Select task type: Regressão
+> - Select dataset: Create a new dataset with the following settings:
+> - Tipos de dados:  
+> > - Name: aluguel-bicicletas
+> > - Description: Dados históricos de aluguel de bicicletas
+> > - Type: Tabular
+  
  » Avançar  
             ▪ Fonte de dados:  
                 • Select de arquivos da web  
