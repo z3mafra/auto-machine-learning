@@ -62,6 +62,7 @@ Para utilizar o Azure Machine Learning, é necessário aprovisionar um espaço d
 Aqui é necessário haver um cadastramento no portal Azure: fui na opção: “Começar com uma avaliação gratuita do Azure”; vai para a página “Crie na nuvem com uma conta gratuita do Azure”, optei por “Experimentar gratuitamente”. Foi iniciado o processo de cadastro da conta, incluindo um cartão de crédito.
 
 2. Selecione + Criar um recurso, pesquise Machine Learning e crie um novo recurso Azure Machine Learning com as seguintes configurações:
+
 > - Assinatura: a assinatura do Azure dsiponível.
 > - Grupo de recursos: criei o grupo de recursos “Lab-AI-900-AML”.
 > - Nome: inserir o nome do espaço de trabalho “LabLearn”.
@@ -83,7 +84,7 @@ Observação: se usará um conjunto de dados de detalhes históricos de aluguel 
   
 O novo trabalho abre uma nova página para as configurações necessárias, com os seguintes itens:  
  Método de treinamento: Treinar automaticamente  
-       Configurações básicas:  
+>        Configurações básicas:  
 > - Job name: mslearn-bike-automl
 > - New experiment name: mslearn-bike-rental
 > - Description: Aprendizado de máquina automatizado para previsão de aluguel de bicicletas
