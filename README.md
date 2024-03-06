@@ -273,6 +273,6 @@ O processo final foi:
 > - após passar todas as anotações para o arquivo readme.md;  
 > - revisão do texto;  
 > - preparação do arquivo .json;  
-> - envio com o comando git push, para o repositório remoto no GitHub.  
+> - envio com o comando "add file", para o repositório remoto no GitHub.  
 > - compartilhamento do link desse repositório através do botão 'entregar projeto'
 > 
