@@ -252,7 +252,8 @@ Com o desafio finalizado, recomanda-se excluir o ponto de extremidade para evita
 Para deletar o workspace:  
     1.  No portal Azure, (<https://portal.azure.com/?azure-portal=true>) na página de Grupos de Recursos, abrir o “resource group” (Lab-AI-900), que foi especificado quando foi criado o workspace no Azure Machine Learning.  
     2. Clicar Excluir grupo de recursos, cliquei no icone ‘copiar’, ao lado o nome do grupode recursos para confirmar que é para deletar, e selecionar Excluir. Depois confirmar “Excluir”.  
-
+>
+>>  - **Observação:** Uma curiosidade que, nesta etapa, a plataforma informou que o consumo de recursos na modalidade de acesso gratuito, foi de R$ 11,87. Restando ainda um crédito de R$ 988,97. 
 -------------------
 
 ## **[3] Escrever o passo a passo desse processo em um readme.md de como foram as etapas:**  
