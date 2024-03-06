@@ -108,8 +108,6 @@ O novo trabalho abre uma nova página para as configurações necessárias, com 
 > -  Web URL: <https://aka.ms/bike-rentals>  
 > - Skip data validation: do not select  
 
-
-  
   » Avançar  
 >**Configurações:  
 > - File format: Delimited  
@@ -133,38 +131,43 @@ O novo trabalho abre uma nova página para as configurações necessárias, com 
   
  » Avançar  
   
-       Configurações de tarefa:  
-        ◦ Task type: Regression  
-        ◦ Dataset: aluguel-bicicletas  
-        ◦ Target column: Rentals (integer)  
+>**Configurações de tarefa:  
+ > - Task type: Regression  
+ > - Dataset: aluguel-bicicletas  
+ > - Target column: Rentals (integer)  
   
-          Selecionar “Additional configuration settings”:  
-           ▪ Primary metric: Normalized root mean squared error  
-            ▪ Explain best model: Unselected  
-            ▪ Use all supported models: Unselected.  
-            ▪ Allowed models: Select only RandomForest and LightGBM — normally you’d want to try as many as possible, but each model added increases the time it takes to run the job.  
-        ◦ Limits: Expand this section  
-            ▪ Max trials: 3  
-            ▪ Max concurrent trials: 3  
-            ▪ Max nodes: 3  
-            ▪ Metric score threshold: 0.085 (so that if a model achieves a normalized root mean squared error metric score of 0.085 or less, the job ends.)  
-            ▪ Timeout: 15  
-            ▪ Iteration timeout: 15  
-            ▪ Enable early termination: Selected  
-        ◦ Validation and test:  
-            ▪ Validation type: Divisão de validação de treinamento  
-            ▪ Percentage of validation data: 10  
-            ▪ Test dataset: None  
+>** Selecionar “Additional configuration settings”:  
+ > - Primary metric: Normalized root mean squared error  
+ > - Explain best model: Unselected  
+ > - Use all supported models: Unselected.  
+ > - Allowed models: Select only RandomForest and LightGBM — normally you’d want to try as many as possible, but each model added increases the time it takes to run the job.  
+  
+>**Limits: Expand this section  
+ > - Max trials: 3  
+ > - Max concurrent trials: 3  
+ > - Max nodes: 3  
+ > - Metric score threshold: 0.085 (so that if a model achieves a normalized root mean squared error metric score of 0.085 or less, the job ends.)  
+ > - Timeout: 15  
+ > - Iteration timeout: 15  
+ > - Enable early termination: Selected  
+  
+>** Validation and test:  
+ > - Validation type: Divisão de validação de treinamento  
+ > - Percentage of validation data: 10  
+ > - Test dataset: None  
+ 
+  
  » Avançar  
   
-       Cálculo:  
+>** Cálculo:  
         ◦ Select compute type: Serverless  
         ◦ Virtual machine type: CPU  
         ◦ Virtual machine tier: Dedicated  
         ◦ Virtual machine size: Standard_DS3_V2*  
         ◦ Number of instances: 1  
  » Avançar  
- » Enviar trabalho de treinamento  
+  
+>** Enviar trabalho de treinamento  
        Aqui foi Submetido o trabalho de treinamento, automaticamente.  
   
        **OBSERVAÇÃO:** Tempo de espera longo para o trabalho terminar. Pausa para um café!  
