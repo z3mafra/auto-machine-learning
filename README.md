@@ -99,8 +99,8 @@ O novo trabalho abre uma nova página para as configurações necessárias, com 
 > > - Type: Tabular
   
  » Avançar  
-            ▪ Fonte de dados:  
-                • Select de arquivos da web  
+>**Fonte de dados:  
+> - Select de arquivos da web  
  » Avançar  
             ▪ Web URL:  
                 • Web URL: <https://aka.ms/bike-rentals>  
