@@ -85,7 +85,7 @@ Observação: se usará um conjunto de dados de detalhes históricos de aluguel 
 O novo trabalho abre uma nova página para as configurações necessárias, com os seguintes itens:  
  
  Método de treinamento: Treinar automaticamente  
--        Configurações básicas:  
+--         Configurações básicas:  
 > - Job name: mslearn-bike-automl
 > - New experiment name: mslearn-bike-rental
 > - Description: Aprendizado de máquina automatizado para previsão de aluguel de bicicletas
