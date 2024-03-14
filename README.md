@@ -86,13 +86,13 @@ Observação: se usará um conjunto de dados de detalhes históricos de aluguel 
 O novo trabalho abre uma nova página para as configurações necessárias, com os seguintes itens:  
  
  **Método de treinamento: Treinar automaticamente**
->**Configurações básicas:**  
+> **Configurações básicas:**  
 > - Job name: mslearn-bike-automl
 > - New experiment name: mslearn-bike-rental
 > - Description: Aprendizado de máquina automatizado para previsão de aluguel de bicicletas
 > - Tags: none  
   
->**Tipo de tarefa e dados:**  
+> **Tipo de tarefa e dados:**  
 > - Select task type: Regressão
 > - Select dataset: Create a new dataset with the following settings:
 > - Tipos de dados:  
@@ -101,16 +101,16 @@ O novo trabalho abre uma nova página para as configurações necessárias, com 
 > > - Type: Tabular
   
  » Avançar  
->**Fonte de dados:**  
+> **Fonte de dados:**  
 > - Select de arquivos da web  
 
   » Avançar  
->**Web URL**  
+> **Web URL**  
 > -  Web URL: <https://aka.ms/bike-rentals>  
 > - Skip data validation: do not select  
 
   » Avançar  
->**Configurações:**  
+> **Configurações:**  
 > - File format: Delimited  
 > - Delimiter: Comma  
 > - Encoding: UTF-8  
@@ -120,7 +120,7 @@ O novo trabalho abre uma nova página para as configurações necessárias, com 
 
   
  » Avançar  
->**Esquema:**  
+> **Esquema:**  
 > - Include all columns other than Path  
   
  » Avançar  
@@ -132,18 +132,18 @@ O novo trabalho abre uma nova página para as configurações necessárias, com 
   
  » Avançar  
   
->**Configurações de tarefa:**  
+> **Configurações de tarefa:**  
  > - Task type: Regression  
  > - Dataset: aluguel-bicicletas  
  > - Target column: Rentals (integer)  
   
->** Selecionar “Additional configuration settings”:**  
+> **Selecionar “Additional configuration settings”:**  
  > - Primary metric: Normalized root mean squared error  
  > - Explain best model: Unselected  
  > - Use all supported models: Unselected.  
  > - Allowed models: Select only RandomForest and LightGBM — normally you’d want to try as many as possible, but each model added increases the time it takes to run the job.  
   
->**Limits: Expand this section**  
+> **Limits: Expand this section**  
  > - Max trials: 3  
  > - Max concurrent trials: 3  
  > - Max nodes: 3  
@@ -152,7 +152,7 @@ O novo trabalho abre uma nova página para as configurações necessárias, com 
  > - Iteration timeout: 15  
  > - Enable early termination: Selected  
   
->** Validation and test:**  
+> **Validation and test:**  
  > - Validation type: Divisão de validação de treinamento  
  > - Percentage of validation data: 10  
  > - Test dataset: None  
@@ -160,7 +160,7 @@ O novo trabalho abre uma nova página para as configurações necessárias, com 
   
  » Avançar  
   
->**Cálculo:**  
+> **Cálculo:**  
         ◦ Select compute type: Serverless  
         ◦ Virtual machine type: CPU  
         ◦ Virtual machine tier: Dedicated  
@@ -168,10 +168,10 @@ O novo trabalho abre uma nova página para as configurações necessárias, com 
         ◦ Number of instances: 1  
  » Avançar  
   
->**Enviar trabalho de treinamento**  
+> **Enviar trabalho de treinamento**  
        Aqui foi Submetido o trabalho de treinamento, automaticamente.  
   
-**OBSERVAÇÃO:** Tempo de espera longo para o trabalho terminar. Pausa para um café!  
+**OBSERVAÇÃO**: Tempo de espera longo para o trabalho terminar. Pausa para um café!  
   
 ### c. Avaliar o melhor modelo  
 
@@ -201,8 +201,9 @@ Ao verificar os gráficos que mostram a performance do modelo. O Gráfico "resid
 Agora você pode testar o serviço implantado.  
   1. No Azure Machine Learning studio, no menu do lado esquerdo, selecionei Endpoints e abri o “prevealuguel real-time endpoint”.  
   2. Na página do “ prevealuguel real-time endpoint” abrir a aba de Testar.  
-  3. No painel de Inserir dados para teste de ponto de extremidade, troquei o template JSON pelo seguinte código de input data:  
- ~~~ 
+  3. No painel de Inserir dados para teste de ponto de extremidade, troquei o template JSON pelo seguinte código de input data:
+     
+ ~~~json 
         {  
           "Inputs": {   
             "data": [  
@@ -224,10 +225,12 @@ Agora você pode testar o serviço implantado.
           },   
           "GlobalParameters": 1.0  
         }  
- ~~~ 
+ ~~~
+
   4.  Cliquei o botão de Testar.  
-  5. Verificando os resultados do teste, que inclue o numero predito de alugueis baseado no the recursos de entrada – que retornou o seguinte:  
-~~~  
+  5. Verificando os resultados do teste, que inclue o numero predito de alugueis baseado no the recursos de entrada – que retornou o seguinte:
+     
+~~~json  
        {  
          "Results": [  
            388.3180761141912  
